@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Scandalum</title>
+<link rel="stylesheet" href="css/contactos.css">
+<!-- ICONOS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+<div class="top-logo">
+<img src="imagenes/IMG_2453 1.jpg" alt="logo">
+</div>
+<!-- HEADER -->
+<header>
+<div class="logo-header">
+<img src="imagenes/IMG_2453 2 2.jpg" alt="">
+<span>SCANDALUM</span>
+</div>
+<nav>
+<a href="#">Contactos</a>
+<a href="#">Perfumería</a>
+<a href="#">Joyería</a>
+</nav>
+<div class="header-icons">
+<input type="text" placeholder="Buscar...">
+<button onclick="alert('Carrito abierto')">
+<i class="fa fa-shopping-cart"></i>
+</button>
+</div>
+</header>
+<!-- CONTENIDO -->
+<section class="contact">
+<h1>CONTACTOS</h1>
+<p>Estamos para servirte y aclarar cualquier duda</p>
+<div class="content">
+<!-- REDES -->
+<div class="social">
+<a href="https://twitter.com" target="_blank">
+<i class="fab fa-twitter"></i> @scandalum.cr
+</a>
+<a href="https://instagram.com" target="_blank">
+<i class="fab fa-instagram"></i> @scandalum.cr
+</a>
+<a href="https://facebook.com" target="_blank">
+<i class="fab fa-facebook"></i> @scandalum.cr
+</a>
+<a href="https://youtube.com" target="_blank">
+<i class="fab fa-youtube"></i> @scandalum.cr
+</a>
+</div>
+<!-- FORMULARIO -->
+<form onsubmit="enviarFormulario(event)">
+<input type="text" placeholder="Nombre" required>
+<input type="email" placeholder="Email" required>
+<input type="password" placeholder="Password" required>
+<textarea placeholder="Mensaje"></textarea>
+<button type="submit">Enviar</button>
+</form>
+</div>
+</section>
+<!-- FOOTER -->
+<footer>
+<div class="footer-logo">
+<img src="logo.png" alt="">
+<h2>SCANDALUM</h2>
+</div>
+<div class="footer-icons">
+<i class="fab fa-instagram"></i>
+<i class="fab fa-twitter"></i>
+<i class="fab fa-facebook"></i>
+<i class="fab fa-youtube"></i>
+</div>
+</footer>
+<script>
+function enviarFormulario(e){
+   e.preventDefault();
+   alert("Mensaje enviado correctamente");
+}
+</script>
+</body>
+</html>
