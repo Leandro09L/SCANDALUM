@@ -1,0 +1,19 @@
+
+
+
+#logo {
+    width: 300px;
+    height: auto;
+    border-radius: 20px;
+}
+
+
+header {
+    width: 100%;
+    min-height: 120px;
+    background-color: #4d1b21;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}     
